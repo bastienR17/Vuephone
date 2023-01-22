@@ -1,7 +1,8 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <nav class="border-b-2 border-[#2c3e50] w-11/12 mx-auto">
+    <router-link class="uppercase mr-32" to="/">clavier</router-link>
+    <router-link class="uppercase mr-32" to="/contact">contact</router-link>
+    <router-link class="uppercase" to="/journal">Journal</router-link>
   </nav>
   <router-view/>
 </template>
@@ -28,3 +29,7 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script setup>
+
+
+</script>
